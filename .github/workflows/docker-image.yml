@@ -1,0 +1,54 @@
+name: PublishDockerImage
+on:
+  watch:
+    types: started
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    env:
+      IMAGE_NAME: dailycheckin
+    steps:
+      - 
+        name: Checkout
+        uses: actions/checkout@master
+
+      - 
+        name: Set Up QEMU
+        uses: docker/setup-qemu-action@v1
+
+      - 
+        name: Set Up Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - 
+        name: Login DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      
+      - 
+        name: Set Up Cache
+        uses: actions/cache@v2
+        id: buildx-cache
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx
+
+      - 
+        name: Buildx
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          file: ./Dockerfile
+          platforms: |
+            windows/amd64
+            linux/amd64
+            linux/arm64
+            linux/arm/v6
+            linux/arm/v7
+          push: true
+          tags: |
+            ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
