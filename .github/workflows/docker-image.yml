@@ -31,7 +31,7 @@ jobs:
       
       - 
         name: Set Up Cache
-        uses: actions/cache@v2
+        uses: docker/setup-qemu-action@v1
         id: buildx-cache
         with:
           path: /tmp/.buildx-cache
@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          file: ./Dockerfile
+          file: ./docker/Dockerfile
           platforms: |
             windows/amd64
             linux/amd64
