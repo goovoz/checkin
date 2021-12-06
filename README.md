@@ -44,7 +44,7 @@
 
 ## 视频教程
 
-网盘链接：[https://alywp.net/7BKy9O](https://alywp.net/7BKy9O)
+网盘链接：[https://www.aliyundrive.com/s/hYC6FziXppq](https://www.aliyundrive.com/s/hYC6FziXppq)
 
 ## 签到列表
 
@@ -108,7 +108,7 @@
 <table> 
 <tr> 
  <td> <p align="center">TG 群</p> <a href="https://t.me/dailycheckin"> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/Telegram.jpg"></a> <p align="center">扫码进 TG 群</p> </td> 
- <td> <p align="center">QQ 群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/qq.jpg" /> <p align="center">扫码进 QQ 群</p> </td>
+ <td> <p align="center">QQ 群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/qqgroup.jpg" /> <p align="center">扫码进 QQ 群</p> </td>
  <td> <p align="center">微信群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/wechat_groups.jpg" /> <p align="center">扫码进微信群</p> </td> 
  <td> <p align="center">微信</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/wechat.jpg" /> <p align="center">加微信备注：签到</p> </td> 
 </tr> 
@@ -116,6 +116,11 @@
 
 ## 更新日志
 
+- 2021-11-04 ![PyPI](https://img.shields.io/badge/Pypi-v0.3.4-brightgreen)
+    * 新增【联通沃邮箱】网页端和客户端任务
+    * 新增【联通沃邮箱】是否21天断签配置
+    * 修复【联通沃邮箱】俱乐部签到
+    * 移除【联通沃邮箱】拼图活动
 - 2021-10-13 ![PyPI](https://img.shields.io/badge/Pypi-v0.3.1-brightgreen)
     * 修复【联通沃邮箱】脚本
     * 完善【欢太商城】脚本
@@ -222,7 +227,6 @@
 
 <table> 
 <tr> 
- <td> <p align="center">领红包</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/hb.jpg" /> </td> 
  <td> <p align="center">支付宝</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/alipay.jpg" /> </td> 
  <td> <p align="center">微信</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/wechat.jpg" /></td> 
 </tr> 

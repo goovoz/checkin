@@ -24,7 +24,7 @@
 
 ## 视频教程
 
-网盘链接：[https://alywp.net/7BKy9O](https://alywp.net/7BKy9O)
+网盘链接：[https://www.aliyundrive.com/s/hYC6FziXppq](https://www.aliyundrive.com/s/hYC6FziXppq)
 
 ## 签到列表
 
@@ -81,7 +81,7 @@
 <table> 
 <tr> 
  <td> <p align="center">TG 群</p> <a href="https://t.me/dailycheckin"> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/Telegram.jpg"></a> <p align="center">扫码进 TG 群</p> </td> 
- <td> <p align="center">QQ 群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/qq.jpg" /> <p align="center">扫码进 QQ 群</p> </td>
+ <td> <p align="center">QQ 群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/qqgroup.jpg" /> <p align="center">扫码进 QQ 群</p> </td>
  <td> <p align="center">微信群</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/wechat_groups.jpg" /> <p align="center">扫码进微信群</p> </td> 
  <td> <p align="center">微信</p> <img width="200" height="280" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/img/wechat.jpg" /> <p align="center">加微信备注：签到</p> </td> 
 </tr> 
@@ -91,7 +91,6 @@
 
 <table> 
 <tr> 
- <td> <p align="center">领红包</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/hb.jpg" /> </td> 
  <td> <p align="center">支付宝</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/alipay.jpg" /> </td> 
  <td> <p align="center">微信</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/Sitoi/dailycheckin/docs/reward/wechat.jpg" /></td> 
 </tr> 
